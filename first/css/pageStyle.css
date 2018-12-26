@@ -1,0 +1,295 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.center{
+    display: inline-block;
+    width: 100%;
+    height: 130px;
+    border-bottom: 1px solid silver;
+}
+.center > nav{
+    height: 100px;
+    width: 100%;
+}
+.center>a{
+    float: left;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.center>nav>ul li{
+    color: orange;
+    text-align: center;
+    display: list-item;
+    float: left;
+    margin-right: 80px;
+    margin-top: 3%;
+}
+.center>nav>ul{
+    display: inline-block;
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.center ul>li:nth-child(1){
+    color: black;
+}
+.center > nav >ul li{
+    margin: 0 30px;
+}
+.main_head{
+    position:relative;
+    margin: 0;
+    border-bottom:1px solid silver;
+}
+.view_portfolio{
+    position: absolute;
+    width:38%;
+    height: 50px;
+    color:dimgray;
+    background-color: black;
+    padding:0 15px;
+    bottom: 40px;
+    left: 8%;
+}
+.view{
+    color: orange;
+    float: right;
+}
+.view_portfolio+img{
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+.sections {
+    display: inline-flex;
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid silver;
+<<<<<<< HEAD
+    overflow: hidden;
+=======
+    overflew: hidden;
+>>>>>>> 65b2b98755f50f72d00434d9e65877120d989900
+}
+.main_block{
+    width: 30%;
+    height: 200px;
+    margin-left: 5%;
+}
+.main_block > h2{
+    border-bottom: 5px solid;
+}
+.main_block>a{
+    color: orange;
+}
+.main_block1{
+    display: block;
+    width: 35%;
+    height: 300px;
+    margin-left: 2%;
+}
+.main_block1 > h2{
+    border-bottom: 5px solid;
+}
+.p1{
+    margin-left: 25px;
+    margin-top: -25px;
+    width: 95%;
+}
+
+.main_block2{
+    display: block;
+    width: 30%;
+    height: 200px;
+    margin-left: 2%;
+}
+.main_block2 > h2{
+    border-bottom: 5px solid;
+}
+.test{
+    margin-left: 5%;
+}
+.main_block2>p{
+    margin-left: 5%;
+}
+
+.photo{
+    display: block;
+    float: left;
+    width: 20%;
+    height: 170px;
+    margin-right: 5%;
+}
+.portfolio > ul {
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    border-bottom: 3px solid;
+}
+.portfolio>ul>li>a{
+    position:absolute;
+    width:60px;
+    height:20px;
+    text-align:center;
+    line-height: 20px;
+    background: orange;
+    color: black;
+    font-size:12px;
+    bottom: 0;
+    right: 0;
+}
+/**/
+.portfolio>ul>li img{
+    /*position: relative;*/
+    width: 100%;
+    height: 100%;
+}
+.portfolio>ul>li:not(li:first-child){
+    float: left;
+    margin-right: 5%;
+}
+.portfolio > ul > li {
+    position: relative;
+}
+
+.update{
+    /*margin: 0;*/
+    /*padding: 0;*/
+    width: 75%;
+    height: 200px;
+}
+.contact{
+    padding: 0;
+    margin: 0;
+    height: 250px;
+}
+.contact>div{
+    float: left;
+}
+.update>h4{
+    float: left;
+}
+.update>p{
+    float: left;
+    padding-right: 30px;
+}
+.site>ul>li{
+    display: inline-block;
+}
+.site>ul{
+    float: left;
+    padding: 0;
+}
+.connect{
+    width: 25%;
+    height: 200px;
+}
+.connect>ul{
+    margin: 0;
+}
+
+.twitter>a{
+    width:140px;
+    height:85px;
+    margin-right: 5px;
+}
+.face>a{
+    width:140px;
+    height:85px;
+    margin-right: 5px;
+}
+.flickr>a{
+    width:140px;
+    height:85px;
+    margin-right: 5px;
+}
+.rss>a{
+    width:140px;
+    height:85px;
+}
+
+.second_port {
+    width: 100%;
+    padding: 0;
+    height: 300px;
+    border-bottom: 1px solid silver;
+}
+.port_photo {
+    width: 20%;
+    padding: 0;
+    margin: 10px 0;
+    display: inline-block;
+    height: 170px;
+    position: relative;
+}
+.port_photo:last-child {
+    float: right;
+    margin-left: 6%;
+}
+.first{
+    margin-right: 6%;
+}
+.second{
+    margin-right: 3%;
+}
+.three {
+    margin-left: 3%;
+}
+.port_photo > img {
+    width: 100%;
+    height: 100%;
+}
+.port_photo > a {
+    width:60px;
+    height:20px;
+    text-align:center;
+    line-height: 20px;
+    background: orange;
+    color: black;
+    font-size:12px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    margin: 0;
+}
+.foot_menu{
+    display: block;
+    background-color: silver;
+    width: 100%;
+    height: 100px;
+    margin-top: -15px;
+}
+.foot_menu > img{
+    float: right;
+    margin-top: -75px;
+    margin-right: 80px;
+    width: 12%;
+}
+.menu>ul li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 1px 10px 1px 0;
+    border-right: 3px solid;
+    border-right: 2px solid;
+}
+
+.contact_us{
+    border-right: none!important;
+}
+.menu > p{
+    margin-left: 50px;
+}
+.sections{
+    overflow: hidden;
+}

@@ -1,0 +1,118 @@
+@media only screen and (max-width : 560px) {
+    .head_menu {
+        display: none;
+    }
+
+    .heading > h1{
+        font-size: 18px;
+    }
+
+    .section_first > p{
+        font-size: 10px;
+    }
+
+    .section_second > p{
+        font-size: 12px;
+    }
+
+    .section_five{
+        height: 1200px;
+    }
+
+    .section_five img{
+        width: 45%;
+        height: 300px;
+    }
+
+    .section_six{
+        height: 600px;
+        display: inline-block;
+    }
+
+    .section_six div{
+        width: 45%;
+        height: 250px;
+
+    }
+
+    .submit_one{
+        font-size: 6.5px;
+    }
+
+}
+
+@media only screen and (min-width : 560px) {
+    .heading > h1{
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (min-width : 1200px) {
+    .heading > h1{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width : 860px) {
+    .button{
+        font-size: 8px;
+    }
+
+    .lisa{
+        margin-left: 10px;
+    }
+
+    .lisa > span{
+        margin-left: -94px;
+    }
+
+    .rose > span{
+        margin-left: -95px;
+    }
+
+    .mike > span{
+        margin-left: -85px;
+    }
+
+    .deo > span {
+        margin-left: -85px;
+    }
+}
+
+@media only screen and (max-width : 968px) {
+    .section_three{
+        height: 500px;
+    }
+
+    .section_three  div:nth-child(1){
+        width: 15%; 
+        height: 400px;
+        margin-left: 50px; 
+    }
+
+    .section_four{
+        height: 500px;
+    }
+
+    .section_four > div:nth-child(1){
+        width: 15%; 
+        height: 400px;
+        text-align: center;
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width : 720px){
+    .foot_menu div:nth-child(1){
+        margin-left: 70px;
+    }
+
+    .foot_menu div{
+        margin-left: 40px;
+    }
+
+    .foot_menu{
+        height: 400px;
+    }
+}
