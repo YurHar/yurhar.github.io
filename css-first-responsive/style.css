@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding:  2vh 5vw 1vh 5vw;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+    display: inline-flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: wheat;
+    color: #000000;
+}
+
+.header_logo {
+    width: 30%;
+    height: 100%;
+    margin: 0;
+}
+h1{
+  font-size: 2.4vmax;
+  line-height: 10vh;
+  text-align: center;
+  margin: 0;
+}
+h1 > a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    
+}
+.header_menu {
+    width: 70%;
+    height: 100%;
+    margin: 0;
+}
+
+nav{
+    width: 60%;
+    height: 100%;
+    float: right;
+    padding:  0 2.5%;
+}
+nav > ul {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    list-style: none;
+    font-size: 2.1vmax;
+    
+}
+nav > ul > li {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    line-height: 10vh;
+    margin-right: 0 2.5%;
+}
+nav > ul > li:last-child {
+    margin-right: 0;
+}
+nav > ul > li > a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1.7vmax;
+}
+
+
+.first-section {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.first-section > img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.com {
+    width: 90vw;
+    height: 90vh;
+}
+
+.about{
+    display: flex;
+}
+
+.sweet{
+    width: 35%;
+    height: 80vh;
+    margin: 0;
+}
+
+.sweet > img{
+    width: 100%;
+    height: 100%;
+}
+
+.catering{
+    width: 65%;
+    height: 70vh;
+}
+.catering > h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.catering > span{
+    text-align: center;
+    margin-left: 23.5vw;
+}
+.catering  p{
+    width: 50%;
+    text-align: center;
+    margin-left: 15vw;
+}
+.catering p:last-child{
+    width: 50%;
+    text-align: center;
+    margin-left: 15vw;
+    color: silver;
+}
+
+.menu{
+    display: flex;
+}
+.our_menu{
+    width: 63%;
+    height: 70vh;
+    margin-right: 2%;
+}
+.our_menu > h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.steak{
+    width: 35%;
+    height: 80vh;
+    margin: 0;
+}
+.steak > img{
+    width: 100%;
+    height: 100%
+}
+
+
+.contact> h2{
+    font-size: 35px;
+    font-family: 'Cardo', serif;
+    text-align: center;
+}
+
+.contact p{
+    width: 90vw;
+    margin-left: 3vw;
+    font-family: 'Cardo', serif;
+}
+
+.contact p a{
+    text-decoration: none;
+    color: gray;
+}
+
+.contact > address{
+    font-size: 20px;
+    margin-left: 3vw;
+    font-family: 'Cardo', serif;
+    color: gray;
+}
+
+.name{
+    margin: 5vh 0 0 3vw;
+    padding: 1vh 35vw;
+    border: none;
+    border-bottom: 1px solid silver;
+    outline: none;
+}
+    
+.people{
+    margin:5vh 0 0 3vw;
+    padding: 1vh 35vw;
+    border: none;
+    border-bottom: 1px solid silver;
+    outline: none;
+}
+
+.date{
+    margin:5vh 0 0 3vw;
+    padding: 1vh 36vw;
+    border: none;
+    border-bottom: 1px solid silver;
+    outline: none;
+}
+
+.message{
+    margin:5vh 0 0 0;
+    padding: 1vh 10vw;
+    border: none;
+    border-bottom: 1px solid silver;
+    outline: none;
+    width: 70vw;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
+
+ .message {
+    text-align: center;
+    }
+
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+    display: none;
+}
+
+.submit{
+    width: 15vw;
+    height: 6vh;
+    margin:5vh 37vw;
+    border: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    font-size: 1.7vmax;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: wheat;
+    margin: 0;
+}
+.icons{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 15vh;
+    font-size: 2vw;
+    word-spacing: 30px;
+    background-color: wheat;
+}
+
+.icons a{
+    text-decoration: none;
+    color: darkkhaki;
+}
