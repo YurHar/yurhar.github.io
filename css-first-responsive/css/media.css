@@ -143,8 +143,6 @@ line-height: 16vh;
     display: block;
 }
 .catering p:last-child{
-    letter-spacing: 0.3vmax;
-    word-spacing: 0.7vmax;
     color: #401548;
     padding-bottom: 1vh;
 }
@@ -171,9 +169,6 @@ line-height: 16vh;
 .our_menu > p::first-letter{
     font-size: 4vmax;
     font-weight: 600;
-}
-.our_menu h3{
-    margin-top: 1.5vh;
 }
 
 .steak{
