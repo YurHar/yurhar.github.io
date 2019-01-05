@@ -234,6 +234,7 @@ nav > ul > li > a {
 
  .message {
     text-align: center;
+-webkit-text-align:center;
     }
 
 input[type=date]::-webkit-inner-spin-button {
