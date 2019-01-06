@@ -1,7 +1,3 @@
-@media only screen and (max-width : 850px){
-    
-
-}
 
 @media only screen and (max-width : 576px){
     header {
@@ -226,5 +222,51 @@ line-height: 16vh;
     font-size: 5vmax;
 }
 
+
+}
+
+@media (min-width : 576px) and (max-width : 812px){
+    .about{
+        height: 140vh;
+    }
+    .sweet{
+        height: 100vh;
+        width: 45%;
+    }
+    .catering{
+        width: 50%;
+        height: 100vh;
+    }
+    .catering > h1{
+        margin-left: 7vw;
+    }
+    .catering > span{
+        margin-left: 16vw;
+    }
+    .catering p{
+        width: 100%;
+    margin: 0 3vw;
+    }
+    .catering p:last-child{
+        margin: 3vw 3vw;
+        width: 100%;
+    }
+
+    .menu{
+        height: 130vh;
+    }
+    .our_menu{
+        height: max-content;
+    }
+    .our_menu h3{
+        margin: 10px 0;
+    }
+    .our_menu p{
+        margin: 0;
+    }
+
+    .contact{
+        height: 120vh;
+    }
 
 }
