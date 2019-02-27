@@ -1,0 +1,30 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.clock {
+	position: relative;
+	width: 247px;
+    height: 245px;
+    margin: 10% auto;
+}
+
+.clock:after {
+	position: absolute;
+	content: '';
+	width: 16px;
+	height: 16px;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	border-radius: 50%;
+}
+
+.hands {
+    position: absolute;
+    height: 223px;
+	top: 15px;
+	left: 15px;
+}
