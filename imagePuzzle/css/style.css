@@ -1,0 +1,24 @@
+#add_img{
+    width: 100px;
+    height: 20px;
+    border: 0;
+    cursor: pointer;
+    background-color: lightseagreen;
+}
+
+#images > li > img{
+    width: 250px;
+}
+
+#images > li{
+    list-style: none;
+    cursor: pointer;
+}
+
+#clr_img{
+    width: 100px;
+    height: 20px;
+    border: 0;
+    cursor: pointer;
+    background-color: lightseagreen;
+}
