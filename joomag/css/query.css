@@ -1,0 +1,75 @@
+@media only screen and (max-width: 768px) {
+
+    .head_text {
+        padding: 0;
+    }
+
+    .head_text img {
+        width: 35vw;
+    }
+
+    .head_text h3 {
+        font-size: 20px;
+    }
+
+    .head_text p {
+        font-size: 13px;
+    }
+
+    .sec_fourth{
+        margin-top: 135vh;
+    }
+
+    .fourth_about{
+        display: block;
+    }
+
+    .first_img{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .fourth_about:nth-child(2n){
+    background-color: red;
+
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .logos {
+        display: none;
+        width: 25vw;
+    }
+
+    .wal{
+        display: block;
+    }
+
+    .wal img{
+        width: 50px;
+    }
+
+    .third_sec{
+        top: 142.5vh;
+    }
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 340px) {
+
+    .third_sec {
+        top: 142.5vh;
+    }
+
+    .sec_fourth {
+        margin-top: 110vh;
+    }
+}
