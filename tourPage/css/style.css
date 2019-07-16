@@ -214,13 +214,23 @@ h2 {
 
 .img img {
     width: 100%;
-    border-radius: 100%;
+    border-radius: 50%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .prague {
     margin-top: 8vh;
     margin-bottom: 5vh;
+    height: 19vw;
     text-align: center;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    min-width: 10vw;
+    min-height: 10vw;
 }
 
 .bottom-txt {
@@ -401,13 +411,37 @@ footer {
     position: fixed;
     top: 85vh;
     right: 20px;
-    width: 10vw;
+    width: 14vw;
     z-index: 9999999;
 }
 
 .scrollToTop:hover {
     opacity: 1;
     background: grey;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    header {
+        height: 0;
+    }
+
+    .head_txt {
+        top: -4vh;
+        margin-top: 37%;
+        height: 35vh;
+    }
+
+    .button {
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .prague{
+        height: 15.5vw;
+    }
+
 }
 
 
@@ -430,21 +464,11 @@ footer {
     }
 }
 
-@media only screen and (max-width: 992px) {
 
-    header {
-        height: 0;
-    }
+@media only screen and (max-width: 768px) {
 
-    .head_txt {
-        top: -4vh;
-        margin-top: 37%;
-        height: 35vh;
-    }
-
-    .button {
-        margin: 0;
-        font-size: 13px;
+    .prague{
+        height: 25vw;
     }
 
 }
@@ -464,6 +488,10 @@ footer {
 
     .button {
         margin-top: 5px;
+    }
+
+    .prague{
+        height: 33vw;
     }
 
 
