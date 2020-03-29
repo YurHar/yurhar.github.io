@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--****Font Awesome***-->
+    <script src="../https://kit.fontawesome.com/9385de904d.js"></script>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--***Owl Carousel***-->
+    <link rel="stylesheet" href="../css/owl.carousel.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../files/icon.ico">
+
+    <title>Park Ave</title>
+</head>
+<body>
+
+<header class="main-header">
+
+    <div class="container-fluid">
+
+        <div class="bg"></div>
+
+        <div class="row top">
+
+            <div class="columns logo-center">
+
+                <h1 class="title clearfix" role="banner">
+                    <a href="#">
+                        <img src="../files/logo.png" alt="">
+                    </a>
+                </h1>
+
+            </div>
+
+            <div class="search-account columns">
+
+                <form class="head-search" action="">
+                    <input type="search" class="menu-search">
+                    <i class="fa fa-search"></i>
+                </form>
+
+                <!-- Button to open the modal -->
+                <button class="head-btn" onclick="document.getElementById('id01').style.display='block'">Sign Up
+                </button>
+
+                <!-- The Modal (contains the Sign Up form) -->
+                <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                          title="Close Modal"><i class="far fa-times-circle"></i></span>
+                    <form class="modal-content" action="/action_page.php">
+                        <div class="window">
+                            <h1>Sign Up</h1>
+                            <p>Please fill in this form to create an account.</p>
+                            <hr>
+                            <label><b>Email</b></label>
+                            <input type="text" placeholder="Enter Email" name="email" required>
+
+                            <label><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            <label><b>Repeat Password</b></label>
+                            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+                                Remember me
+                            </label>
+
+                            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms &
+                                Privacy</a>.</p>
+
+                            <div class="clearfix">
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                        class="cancelbtn">Cancel
+                                </button>
+                                <button type="submit" class="signup">Sign Up</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<!--***End Header***-->
+
+<!--***Head Menu***-->
+
+<nav class="navigation-main col-12">
+    <div>
+        <i class="fas fa-bars m-bar"></i>
+    </div>
+    <ul class="head-menu col-12">
+        <li><a href="../index.html">About</a></li>
+        <li><a href="../index.html">Barbers</a></li>
+        <li><a href="../index.html">Shop</a></li>
+        <li><a href="location.html">Location</a></li>
+    </ul>
+</nav>
+
+<!--***End Head Menu***-->
+<div class="col-12 all-loc">
+    <div class="col-12 col-sm-6 location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.1136080783513!2d-73.94077165809054!3d40.80349721710155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2b76424149fd5%3A0x1e6065c9d4149dd9!2zUGFyayBBdmUsIE5ldyBZb3JrLCBOWSwg0KHQqNCQ!5e0!3m2!1sru!2s!4v1574679312159!5m2!1sru!2s"
+                width="98%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+
+    <div class="col-12 col-sm-6 address">
+
+        <h2 class="title">Address</h2>
+        <br>
+        <p><i class="fas fa-map-marker-alt"></i>Park Ave. 125th St. New York</p>
+        <p><i class="fas fa-phone-alt"></i> <a href="tel:+37493597752">+31 20 33 737 77</a></p>
+        <p><i class="far fa-envelope"></i> <a href="mailto:yuri.harutyunyan.a@gmail.com">parkave@barbers.com</a></p>
+
+        <div class="social">
+
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/?lang=ru"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://support.google.com/plus/?hl=ru#topic=9259565"><i class="fab fa-google-plus-square"></i></a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!--***Footer***-->
+
+<footer class="main-end">
+
+    <div class="col-12 col-lg-4">
+        <h3>BUSINESS HOURS</h3>
+        <br>
+        <p>Mon - Closed</p>
+        <p>Tue - Fri 10:00 - 19:00</p>
+        <p>Sat - 10:00 - 18:00</p>
+        <p>Sun - Closed</p>
+        <br>
+        <p>Binnen Oranjestraat 24</p>
+        <p>Park Ave. 125th St. New York</p>
+        <a href="tel:093597752">+31 20 33 737 77</a>
+    </div>
+    <div class="col-12 col-lg-4">
+        <h3>INFORMATION</h3>
+        <br>
+        <a href="#">About us</a>
+        <br>
+        <a href="#">Barbers</a>
+        <br>
+        <a href="#">Shop</a>
+        <br>
+        <a href="#">Location</a>
+    </div>
+    <div class="col-12 col-lg-4">
+        <h3>SUBSCRIBE</h3>
+        <br>
+        <p>Signup, we'll probably never send you anything</p>
+        <br>
+        <span class="mail-val"></span>
+        <br>
+        <input type="email" placeholder="Your Email" class="inpt">
+        <button class="btn-danger approve">OK</button>
+    </div>
+
+
+</footer>
+
+<script src="../js/jQuery.js"></script>
+<script src="../js/all.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>
